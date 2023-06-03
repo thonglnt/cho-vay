@@ -1,0 +1,49 @@
+.header {
+  background-image: url("./assets/images_background.jpg");
+  background-size: cover;
+  background-origin: content-box;
+  background-position: 50% 0%;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  width: 100%;
+  height: 500px;
+  background-color: rgb(16, 145, 33);
+}
+.box_header {
+  width: 518px;
+  height: 270px;
+  right: 190px;
+  top: 100px;
+  border-radius: 30px;
+  background-color: rgb(16, 145, 33);
+  box-shadow: rgb(0, 0, 0) 0px 15px 20px -15px;
+}
+.btn-header {
+  color: rgb(10, 92, 73);
+  background-color: rgb(232, 183, 48);
+  height: 60px;
+  width: 400px;
+  right: 0;
+}
+.the-line {
+  width: 230px;
+  height: 5px;
+  right: -40px;
+}
+.list-choice {
+  margin-top: -65px;
+}
+.card-header {
+  border-radius: 15px !important;
+}
+.card-header:hover {
+  background-image: linear-gradient(rgb(150, 201, 61), rgb(0, 176, 155));
+  transform: scale(1.1);
+}
+.icon_header {
+  width: 59px;
+  height: 69px;
+}
+.btn-register:hover {
+  color: blanchedalmond;
+}
