@@ -47,3 +47,57 @@
 .btn-register:hover {
   color: blanchedalmond;
 }
+.center-content {
+  width: 80%;
+  height: 200px;
+  border-radius: 15px !important;
+}
+.center-content_2 {
+  width: 80%;
+  height: 300px;
+  border-radius: 15px !important;
+  background-image: linear-gradient(rgb(150, 201, 61), rgb(0, 176, 155));
+}
+.center-content_3 {
+  width: 80%;
+  border-radius: 15px !important;
+  background-image: transparent;
+}
+.content_center_4 {
+  width: 246px;
+  height: 191px;
+  background-color: rgb(235, 250, 209);
+}
+.content_center_5 {
+  width: 246px;
+  height: 191px;
+  background-color: rgb(16, 145, 115);
+}
+
+.box_center_content {
+  flex-direction: row;
+  display: flex;
+  align-items: center;
+}
+.box_center_content_text {
+  border-radius: 10px !important;
+  box-shadow: rgb(255, 255, 255) 15px 15px 20px -15px;
+}
+.btn-title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.btn-title-content {
+  background-color: rgb(232, 183, 48) !important;
+  width: 25% !important;
+  border-radius: 10px;
+  height: 40px;
+  margin-top: -15px;
+}
+.icon_content_center {
+  left: 130px;
+}
+.text_center_content_title {
+  color: rgb(16, 145, 33);
+}
