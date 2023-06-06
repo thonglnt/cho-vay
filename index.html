@@ -387,30 +387,31 @@
                      <p class="text-dark fs-6 fw-normal">Sec</p>
                   </div>
                </div>
+               <!-- loan-application-form-fragment.html -->
                <div class="form-group from_input mt-5">
-                  <input  type="text" class="form-control" name="" id="" aria-describedby="helpId" placeholder="Họ và tên">
+                  <input type="text" class="form-control" name="full_name" id="full_name" aria-describedby="helpId" placeholder="Họ và tên">
                </div>
                <div class="form-group from_input mt-2">
-                  <input  type="text" class="form-control" name="" id="" aria-describedby="helpId" placeholder="Số điện thoại">
+                  <input type="text" class="form-control" name="phone_number" id="phone_number" aria-describedby="helpId" placeholder="Số điện thoại">
                </div>
                <div class="form-group from_input mt-2">
-                  <input  type="text" class="form-control" name="" id="" aria-describedby="helpId" placeholder="Địa chỉ">
+                  <input type="text" class="form-control" name="address" id="address" aria-describedby="helpId" placeholder="Địa chỉ">
                </div>
                <div class="form-group from_input mt-2">
                   <div class="mb-3">
-                     <select class="form-select form-select-normal" name="" id="">
-                        <option selected>Lựa chọn hình thức vay</option>
-                        <option value="">Vay theo lương chuyển khoản</option>
-                        <option value="">Vay theo lương tiền mặt</option>
-                        <option value="">Vay theo bảo hiểm nhân thọ</option>
-                        <option value="">Vay theo bảo hiểm y tế</option>
-                     </select>
+                  <select class="form-select form-select-normal" name="loan_type" id="loan_type">
+                     <option selected>Lựa chọn hình thức vay</option>
+                     <option value="salary_transfer">Vay theo lương chuyển khoản</option>
+                     <option value="cash_salary">Vay theo lương tiền mặt</option>
+                     <option value="life_insurance">Vay theo bảo hiểm nhân thọ</option>
+                     <option value="health_insurance">Vay theo bảo hiểm y tế</option>
+                  </select>
                   </div>
                </div>
                <div class="form-group from_input mt-2">
-                  <input  type="text" class="form-control" name="" id="" aria-describedby="helpId" placeholder="Số tiền cần vay">
+                  <input type="text" class="form-control" name="loan_amount" id="loan_amount" aria-describedby="helpId" placeholder="Số tiền cần vay">
                </div>
-               <button class="btn btn-danger from_input mt-2">Gửi đi</button>
+               <button class="btn btn-danger from_input mt-2" type="submit">Gửi đi</button>
                <p class="text_form">Mọi thông tin khách hàng đều được bảo mật<br/><span class="fw-bold text-secondary">Lưu ý: chưa hỗ trợ khách hàng có nợ xấu</span></p>
             </div>
          </div>
