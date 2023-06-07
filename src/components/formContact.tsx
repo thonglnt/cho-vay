@@ -18,7 +18,7 @@ const FormContact = () => {
         (result) => {
           console.log(result.text);
           console.log("msg sended");
-          form.current.reset()
+          form.current.reset();
         },
         (error) => {
           console.log(error.text);
@@ -27,13 +27,15 @@ const FormContact = () => {
   };
 
   return (
-    <div className="position-absolute form_bot_content bg-white text-center">
-      <h6 className="mt-5 text-danger">ĐĂNG KÝ NHẬN TƯ VẤN</h6>
-      <p className="border border-1 border-primary rounded-pill  text_form w-50 text-primary">
+    <div className="bg-light w-50 form_example rounded text-dark text_form_lai w-100">
+      <h6 className="text-center fw-bold fs-4 text-danger">
+        ĐĂNG KÝ NHẬN TƯ VẤN
+      </h6>
+      <p className="border border-1 border-primary rounded-pill text_form_lai w-50 text-center text-primary">
         Lãi suất chỉ từ 0.6%
       </p>
-      <p className="text_form">Đăng ký ngay để nhận gói vay ưu đãi</p>
-      <div className="row text_form text-primary time_form">
+      <p className="text-center fs-6">Đăng ký ngay để nhận gói vay ưu đãi</p>
+      <div className="row text_form text-primary time_form fw-bold fs-4">
         <div className="col-3">
           00
           <br />

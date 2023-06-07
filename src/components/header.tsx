@@ -4,7 +4,9 @@ const Header = () => {
       <div className="container-fluid header position-relative">
         <div className="position-absolute box_header">
           <h2 className="text_header text-white ms-5 mt-5">VAY TÍN CHẤP</h2>
-          <h2 className="text_header text-white text-end me-5">LÃI SUẤT THẤP</h2>
+          <h2 className="text_header text-white text-end me-5">
+            LÃI SUẤT THẤP
+          </h2>
           <div className="text-white position-absolute mt-5 ms-5">
             <div className="d-flex justify-content-center">
               <button className="btn text-center btn-header position-relative">
@@ -16,7 +18,7 @@ const Header = () => {
         </div>
       </div>
       <div className="row d-flex zindex-fixed justify-content-center list-choice rounded w-100">
-        <div className="col-3">
+        <div className="col-3 list">
           <div className="card card-header bg-white text-center">
             <div className="text-center">
               <svg
@@ -34,11 +36,13 @@ const Header = () => {
             <div className="card-body">
               <h6 className="card-title">Hồ sơ đơn giản</h6>
               <h6 className="card-title">Phê duyệt nhanh</h6>
-              <button className="btn btn-success btn-register">ĐĂNG KÝ VAY</button>
+              <button className="btn btn-primary btn-register">
+                ĐĂNG KÝ VAY
+              </button>
             </div>
           </div>
         </div>
-        <div className="col-3">
+        <div className="col-3 list">
           <div className="card card-header bg-white text-center">
             <div className="text-center">
               <svg
@@ -56,11 +60,13 @@ const Header = () => {
             <div className="card-body">
               <h6 className="card-title">Hồ sơ đơn giản</h6>
               <h6 className="card-title">Phê duyệt nhanh</h6>
-              <button className="btn btn-success btn-register">ĐĂNG KÝ VAY</button>
+              <button className="btn btn-primary btn-register">
+                ĐĂNG KÝ VAY
+              </button>
             </div>
           </div>
         </div>
-        <div className="col-3">
+        <div className="col-3 list">
           <div className="card card-header bg-white text-center">
             <div className="text-center">
               <svg
@@ -78,11 +84,13 @@ const Header = () => {
             <div className="card-body">
               <h6 className="card-title">LÃI SUẤT THẤP</h6>
               <h6 className="card-title">HƠN THỊ TRƯỜNG</h6>
-              <button className="btn btn-success btn-register">ĐĂNG KÝ VAY</button>
+              <button className="btn btn-primary btn-register">
+                ĐĂNG KÝ VAY
+              </button>
             </div>
           </div>
         </div>
-        <div className="col-3">
+        <div className="col-3 list">
           <div className="card card-header bg-white text-center">
             <div className="text-center">
               <svg
@@ -98,10 +106,11 @@ const Header = () => {
               </svg>
             </div>
             <div className="card-body">
-              <h6 className="card-title">Khoảng vay tới 900</h6>
-              <h6 className="card-title">triệu</h6>
+              <h6 className="card-title">Khoảng vay tới 900 triệu</h6>
               <br />
-              <button className="btn btn-success btn-register">ĐĂNG KÝ VAY</button>
+              <button className="btn btn-primary btn-register">
+                ĐĂNG KÝ VAY
+              </button>
             </div>
           </div>
         </div>

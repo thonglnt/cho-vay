@@ -1,50 +1,14 @@
 const Footer = () => {
   return (
     <>
-      <div className=" bot_content_5 text-center w-100 ">
-        <svg
-          className="mt-5"
-          xmlns="http://www.w3.org/2000/svg"
-          width="100%"
-          height="100%"
-          preserveAspectRatio="none"
-          viewBox="0 0 1920 185.5"
-          fill="rgba(16, 145, 33, 1)"
-        >
-          <defs>
-            {/* <style>
-               .cls-1 {
-                  opacity: 0.1;
-               }
-
-               .cls-2 {
-                  opacity: 0.3;
-               }
-            </style> */}
-          </defs>
-          <path
-            className="cls-1"
-            d="M1920,172H0V.5H0c317.4,52.9,638,93.9,958.7,94,318.9.1,637.8-40.5,953.5-92.7L1920,.5Z"
-            transform="translate(0 -0.5)"
-          ></path>
-          <path
-            className="cls-2"
-            d="M0,15.5H0c317.4,52.9,638,86.6,958.7,86.7,318.9.1,637.8-33.3,953.5-85.4l7.8-1.3V179H0Z"
-            transform="translate(0 -0.5)"
-          ></path>
-          <path
-            className="cls-3"
-            d="M1920,186H0V30.5H0a5839.7,5839.7,0,0,0,1912.2,1.3l7.8-1.3Z"
-            transform="translate(0 -0.5)"
-          ></path>
-        </svg>
-        <div className="d-flex text-center text-white mt-5 footer">
+      <div className="bot_content_5 text-center w-100 mt-5 ">
+        <div className="d-flex bg_normal">
           <div className="col-6">
-            <h5 className="fw-bold mb-5">
+            <p className="text-center fw-bold fs-5 text-white">
               Hỗ trợ vay tiêu dùng ngân hàng lãi suất tốt
-            </h5>
-            <span className="mb-5">
-              <span className="icon_footer icon_margin_2 d-flex zindex-fixed justify-content-center position-absolute ">
+            </p>
+            <p className="text-start">
+              <span>
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   xmlnsXlink="http://www.w3.org/1999/xlink"
@@ -56,12 +20,10 @@ const Footer = () => {
                   <path d="M10,20V14H14V20H19V12H22L12,3L2,12H5V20H10Z"></path>
                 </svg>
               </span>
-              <p className="mb-5 ms-5">
-                Address: Đ. Lạc Long Quân, Xuân La, Tây Hồ, Hà Nội, Việt Nam
-              </p>
-            </span>
-            <span>
-              <span className="icon_footer icon_margin_2 d-flex zindex-fixed justify-content-center position-absolute ">
+              Address: Đ. Lạc Long Quân, Xuân La, Tây Hồ, Hà Nội, Việt Nam
+            </p>
+            <p className="text-start">
+              <span>
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   xmlnsXlink="http://www.w3.org/1999/xlink"
@@ -73,17 +35,14 @@ const Footer = () => {
                   <path d="M16.36,14C16.44,13.34 16.5,12.68 16.5,12C16.5,11.32 16.44,10.66 16.36,10H19.74C19.9,10.64 20,11.31 20,12C20,12.69 19.9,13.36 19.74,14M14.59,19.56C15.19,18.45 15.65,17.25 15.97,16H18.92C17.96,17.65 16.43,18.93 14.59,19.56M14.34,14H9.66C9.56,13.34 9.5,12.68 9.5,12C9.5,11.32 9.56,10.65 9.66,10H14.34C14.43,10.65 14.5,11.32 14.5,12C14.5,12.68 14.43,13.34 14.34,14M12,19.96C11.17,18.76 10.5,17.43 10.09,16H13.91C13.5,17.43 12.83,18.76 12,19.96M8,8H5.08C6.03,6.34 7.57,5.06 9.4,4.44C8.8,5.55 8.35,6.75 8,8M5.08,16H8C8.35,17.25 8.8,18.45 9.4,19.56C7.57,18.93 6.03,17.65 5.08,16M4.26,14C4.1,13.36 4,12.69 4,12C4,11.31 4.1,10.64 4.26,10H7.64C7.56,10.66 7.5,11.32 7.5,12C7.5,12.68 7.56,13.34 7.64,14M12,4.03C12.83,5.23 13.5,6.57 13.91,8H10.09C10.5,6.57 11.17,5.23 12,4.03M18.92,8H15.97C15.65,6.75 15.19,5.55 14.59,4.44C16.43,5.07 17.96,6.34 18.92,8M12,2C6.47,2 2,6.5 2,12A10,10 0 0,0 12,22A10,10 0 0,0 22,12A10,10 0 0,0 12,2Z"></path>
                 </svg>
               </span>
-              <p className="text_footer mb-5 ms-5">
-                Address: Đ. Lạc Long Quân, Xuân La, Tây Hồ, Hà Nội, Việt Nam
-              </p>
-            </span>
+              Website: vaytheoluong365.online
+            </p>
           </div>
           <div className="col-6">
-            <h5 className="fw-bold mb-5 text-start icon_margin">
+            <p className="text-center fw-bold fs-5 text-white">
               Đáp ứng mọi nhu cầu của khách hàng
-            </h5>
-            {/* <span className="mb-5"> */}
-            <span className="icon_footer icon_margin d-flex zindex-fixed justify-content-center position-absolute ">
+            </p>
+            <p className="text-start">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 data-name="Layer 1"
@@ -99,10 +58,8 @@ const Footer = () => {
                 <title>Artboard 26</title>
                 <path d="M98.85,61.58a4.85,4.85,0,0,1-3.52,5.89L40.13,81.36A9.78,9.78,0,1,1,29.35,76.9c.31-.08.63-.14.94-.19L17.06,24.11,2.78,12.44A4.85,4.85,0,1,1,8.92,4.93L24.44,17.62a4.85,4.85,0,0,1,1.63,2.57L39,71.64,93,58.06A4.85,4.85,0,0,1,98.85,61.58Zm-65.08-40a3.57,3.57,0,0,1,2.59-4.33l8.46-2.13,6.26-1.57L60,11.33l6.66-1.67,7.68-1.93a3.57,3.57,0,0,1,4.33,2.59l9.55,37.94a3.57,3.57,0,0,1-2.59,4.33L47.65,62.13a3.57,3.57,0,0,1-4.33-2.59ZM50.89,31.77c1,3.85,4.37,5.11,9,5.47,3.19.25,4.7.89,5.08,2.4s-.93,2.85-3.19,3.42a13.79,13.79,0,0,1-4.48.34,2.43,2.43,0,0,0-.8.06,2.32,2.32,0,0,0-1.77,2.23v.2a2.37,2.37,0,0,0,2.22,2.38,18.93,18.93,0,0,0,5-.35l.46,1.83a2,2,0,1,0,3.89-1l-.53-2.11c4.37-1.94,6.11-5.59,5.22-9.13s-3.36-5.28-8.51-5.76c-3.7-.42-5.3-.91-5.63-2.22-.28-1.11.27-2.44,2.86-3.08a12.59,12.59,0,0,1,3.64-.38A2.29,2.29,0,0,0,64,26a2.37,2.37,0,0,0-.55-4.67,17.49,17.49,0,0,0-3.76.39l-.39-1.55a2,2,0,0,0-3.89,1L55.82,23C51.78,24.91,50,28.27,50.89,31.77Z"></path>
               </svg>
-              <p className="text_footer">&ensp;Returns & Shipping Policy</p>
-            </span>
-            <span>
-              <p className="text_footer icon_margin_3">
+              Returns & Shipping Policy
+              <p className="text-center contact_list_footer ">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   xmlnsXlink="http://www.w3.org/1999/xlink"
@@ -215,7 +172,7 @@ const Footer = () => {
                         font-family="'Helvetica'"
                         font-size="2.4"
                       >
-                        For thicker strokes use even{" "}
+                        For thicker strokes use even
                       </tspan>
                       <tspan
                         x="0"
@@ -231,7 +188,7 @@ const Footer = () => {
                         font-family="'Helvetica-Bold'"
                         font-size="2.4"
                       >
-                        Remember to expand strokes{" "}
+                        Remember to expand strokes
                       </tspan>
                       <tspan
                         x="0"
@@ -258,7 +215,7 @@ const Footer = () => {
                         font-family="'Helvetica'"
                         font-size="2.4"
                       >
-                        Cannot be wider or taller than{" "}
+                        Cannot be wider or taller than
                       </tspan>
                       <tspan
                         x="0"
@@ -274,7 +231,7 @@ const Footer = () => {
                         font-family="'Helvetica'"
                         font-size="2.4"
                       >
-                        Scale your icon to fill as much of{" "}
+                        Scale your icon to fill as much of
                       </tspan>
                       <tspan
                         x="0"
@@ -301,7 +258,7 @@ const Footer = () => {
                         font-family="'Helvetica'"
                         font-size="2.4"
                       >
-                        If your design has more than one{" "}
+                        If your design has more than one
                       </tspan>
                       <tspan
                         x="0"
@@ -428,11 +385,10 @@ const Footer = () => {
                     <path d="M83.64,40H78v-9.208c0-15.24-12.76-27.638-28-27.638c-15.239,0-28,12.398-28,27.638V40h-6.217   C14.542,40,13,42.119,13,43.36v50.332C13,94.932,14.542,96,15.783,96H83.64c1.241,0,3.36-1.068,3.36-2.308V43.36   C87,42.119,84.881,40,83.64,40z M58.015,83.265C57.719,83.665,57.249,84,56.75,84H43.571c-0.5,0-0.969-0.335-1.266-0.735   c-0.296-0.403-0.384-0.97-0.238-1.448l4.511-14.673c-2.112-1.368-3.616-4.102-3.616-6.835c0-3.924,3.228-7.121,7.198-7.121   c3.901,0,7.198,3.37,7.198,7.363c0,2.698-1.452,5.236-3.607,6.552l4.502,14.717C58.399,82.296,58.312,82.862,58.015,83.265z M62,40   H38v-9.208c0-6.567,5.434-11.91,12-11.91c6.567,0,12,5.343,12,11.91V40z"></path>
                   </g>
                 </svg>
-                &ensp;Privacy Policy
+                Privacy Policy
               </p>
-            </span>
-            <br />
-            <span className="d-flex zindex-fixed justify-content-center position-absolute icon_margin">
+            </p>
+            <p className="text-start">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 xmlnsXlink="http://www.w3.org/1999/xlink"
@@ -573,10 +529,8 @@ const Footer = () => {
                   ></rect>
                 </g>
               </svg>
-              <p className="text_footer ">&ensp;Terms of Use</p>
-            </span>
-            <span>
-              <p className="text_footer icon_margin_3">
+              Terms of Use
+              <p className="text-center contact_list_footer  ">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   xmlnsXlink="http://www.w3.org/1999/xlink"
@@ -594,27 +548,14 @@ const Footer = () => {
                 >
                   <path d="M74.048,30.427v34.746H72.5h-7.452v7.361l-5.18-5.18l-2.183-2.182H54.6H12.452V30.427H74.048 M81.5,22.976H5v49.649h49.6  l17.9,17.899V72.625h9V22.976L81.5,22.976z M61.879,44.074h-7.452v7.452h7.452V44.074z M46.976,44.074h-7.451v7.452h7.451V44.074z   M32.072,44.074H24.62v7.452h7.453V44.074z M18.5,9.476v7.451h7.452h61.596v34.746v7.452H95V9.476H18.5z"></path>
                 </svg>
-                &ensp;Contact Us
+                Contact Us
               </p>
-            </span>
-            <br />
-            <div className="bg-danger icon_footer icon_margin mb-5 bg-light d-flex ">
-              <img
-                className="icon_contact"
-                src="/images/contact_icon.png"
-                alt="visa_mastercard"
-              />
-              <img
-                className="icon_contact"
-                src="/images/bo_cong_thuong.jpg"
-                alt="Chung_nhan_bo_cong_thuong"
-              />
-            </div>
+            </p>
           </div>
         </div>
-        <div className="d-flex justify-content-center w-100 footer text-light mt-5 text-center">
-          <div className="border-top w-50 fs-6">
-            {" "}
+
+        <div className="d-flex justify-content-center w-100 footer text-light mt-5 text-center position-relative">
+          <div className="border-top w-50 fs-6 text-footer">
             &copy;2022 Allrights reserved mystore.com
           </div>
         </div>
