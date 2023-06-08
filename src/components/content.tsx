@@ -71,7 +71,7 @@ const Content = () => {
               </div>
             </div>
             <div className="row">
-              <div className="col-md-6">
+              <div className="col-md-4">
                 <hr className="hr forest-green bg-primary" />
               </div>
               <div className="col-auto">

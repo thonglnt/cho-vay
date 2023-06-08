@@ -74,6 +74,9 @@ code {
   .contact_list_footer {
     margin-top: 31px !important;
   }
+  .form_example {
+    width: 100% !important;
+  }
 }
 @media only screen and (max-width: 739px) {
   .mt-10-mobile {
@@ -169,6 +172,9 @@ code {
   .contact_list_footer {
     margin-top: 0px !important;
     margin-right: 75px !important;
+  }
+  .form_example {
+    width: 100% !important;
   }
 }
 /* */
