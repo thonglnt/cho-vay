@@ -1,10 +1,10 @@
 const Footer = () => {
   return (
     <>
-      <div className="bot_content_5 text-center w-100 mt-5 ">
+      <div className="bot_content_5 text-center w-100 mt-5  text-white ">
         <div className="d-flex bg_normal">
           <div className="col-6">
-            <p className="text-center fw-bold fs-5 text-white">
+            <p className="text-center fw-bold fs-5">
               Hỗ trợ vay tiêu dùng ngân hàng lãi suất tốt
             </p>
             <p className="text-start">
@@ -39,7 +39,7 @@ const Footer = () => {
             </p>
           </div>
           <div className="col-6">
-            <p className="text-center fw-bold fs-5 text-white">
+            <p className="text-center fw-bold fs-5">
               Đáp ứng mọi nhu cầu của khách hàng
             </p>
             <p className="text-start">

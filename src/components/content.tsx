@@ -64,18 +64,20 @@ const Content = () => {
           <div className="col-md-6 ps-5 pe-4">
             <div className="row">
               <div className="col-auto">
-                <h3 className="forest-green fw-bold">ƯU ĐIỂM</h3>
+                <h3 className="forest-green fw-bold text-primary">ƯU ĐIỂM</h3>
               </div>
-              <div className="col">
-                <hr className="hr hr-tag forest-green" />
+              <div className="col ">
+                <hr className="hr hr-tag forest-green bg-primary" />
               </div>
             </div>
             <div className="row">
               <div className="col-md-4">
-                <hr className="hr forest-green" />
+                <hr className="hr forest-green bg-primary" />
               </div>
               <div className="col-auto">
-                <h3 className="forest-green fw-bold">VAY TÍN CHẤP</h3>
+                <h3 className="forest-green fw-bold text-primary">
+                  VAY TÍN CHẤP
+                </h3>
               </div>
             </div>
             <div className="row pe-5">
@@ -105,18 +107,18 @@ const Content = () => {
       <div className="container">
         <div className="row">
           <div className="col-auto">
-            <h3 className="forest-green fw-bold">CHÍNH SÁCH</h3>
+            <h3 className="forest-green fw-bold text-primary">CHÍNH SÁCH</h3>
           </div>
           <div className="col">
-            <hr className="hr hr-tag forest-green" />
+            <hr className="hr hr-tag forest-green bg-primary" />
           </div>
         </div>
         <div className="row">
           <div className="col-md-4">
-            <hr className="hr forest-green" />
+            <hr className="hr forest-green bg-primary" />
           </div>
           <div className="col-auto">
-            <h3 className="forest-green fw-bold">VAY TIÊU DÙNG</h3>
+            <h3 className="forest-green fw-bold text-primary">VAY TIÊU DÙNG</h3>
           </div>
         </div>
         <div className="row mt-5">
@@ -139,7 +141,7 @@ const Content = () => {
                   </div>
                 </div>
               </div>
-              <div className="col-md-10 fw-bold fs-5 emerald-green d-grid align-items-center">
+              <div className="col-md-10 fw-bold fs-5 emerald-green d-grid align-items-center text-primary">
                 HỒ SƠ VAY VỐN ĐƠN GIẢN
               </div>
               <ul>
