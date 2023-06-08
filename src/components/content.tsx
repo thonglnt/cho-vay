@@ -3,7 +3,7 @@ import FormContact from "./formContact";
 const Content = () => {
   return (
     <>
-      <div className="container mt-5">
+      <div className="container mt-10">
         <div className="row">
           <div className="col-md-6">
             <div className="row">
@@ -61,7 +61,7 @@ const Content = () => {
               </div>
             </div>
           </div>
-          <div className="col-md-6 ps-5 pe-4">
+          <div className="col-md-6 ps-5 pe-4 mt-10-mobile">
             <div className="row">
               <div className="col-auto">
                 <h3 className="forest-green fw-bold text-primary">ƯU ĐIỂM</h3>
@@ -71,7 +71,7 @@ const Content = () => {
               </div>
             </div>
             <div className="row">
-              <div className="col-md-4">
+              <div className="col-md-6">
                 <hr className="hr forest-green bg-primary" />
               </div>
               <div className="col-auto">
@@ -104,7 +104,7 @@ const Content = () => {
           </div>
         </div>
       </div>
-      <div className="container">
+      <div className="container mt-10">
         <div className="row">
           <div className="col-auto">
             <h3 className="forest-green fw-bold text-primary">CHÍNH SÁCH</h3>
@@ -114,7 +114,7 @@ const Content = () => {
           </div>
         </div>
         <div className="row">
-          <div className="col-md-4">
+          <div className="col-md-6">
             <hr className="hr forest-green bg-primary" />
           </div>
           <div className="col-auto">
@@ -129,8 +129,8 @@ const Content = () => {
                   <div className="ladi-shape">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
-                      width="5%"
-                      height="7%"
+                      width="40px"
+                      height="40px"
                       preserveAspectRatio="none"
                       viewBox="0 0 24 24"
                       className=""
@@ -165,35 +165,35 @@ const Content = () => {
           </div>
         </div>
       </div>
-      <div className="container-fuild">
+      <div className="container mt-10 ">
         <div className="row d-flex zindex-fixed justify-content-center text-center w-100 margin_left_mobile">
           <div className="row mt-5 zindex-fixed justify-content-center center_content center-content_radius bg_normal">
             <div className="col-12 btn-title">
-              <div className="btn-title-content bg-white text-white center-content">
+              <div className="btn-title-content bg-white text-white center-content mb-5">
                 Ưu điểm nổi bật
               </div>
             </div>
-            <div className="col-3 center-content_mobile center-content">
-              <div className="box_center_content_text bg-white w-100 fs-5">
+            <div className="col-auto center-content_mobile center-content_tablet">
+              <div className=" bg-white w-100 fs-5 radius_normal mb-2">
                 <p>Đáp ứng nhanh chóng các</p>
                 <p>nhu cầu chi tiêu đột xuất</p>
               </div>
             </div>
-            <div className="col-3 center-content_mobile center-content box_center_content">
-              <div className="box_center_content_text bg-white w-100 fs-5">
+            <div className="col-auto center-content_mobile center-content_tablet ">
+              <div className="bg-white w-100 fs-5 radius_normal mb-2">
                 <p>Thủ tục hồ sơ giản lược, thời</p>
                 <p>gian phê duyệt nhanh chóng</p>
               </div>
             </div>
-            <div className="col-3 center-content_mobile center-content box_center_content">
-              <div className="box_center_content_text bg-white w-100 fs-5">
+            <div className="col-auto center-content_mobile center-content_tablet">
+              <div className=" bg-white w-100 fs-5 radius_normal mb-2">
                 <p>Không cần thế chấp tài sản</p>
                 <p>đảm bảo</p>
               </div>
             </div>
           </div>
-          <div className="row d-flex zindex-fixed justify-content-center text-center mt-5 w-100">
-            <div className="row mt-5 d-flex zindex-fixed justify-content-center center_content_2 center-content_radius">
+          <div className="row d-flex  justify-content-center text-center mt-5 w-100">
+            <div className="row mt-10 d-flex  justify-content-center center_content_2 center-content_radius">
               <div className="col-6 center-content_mobile">
                 <img
                   className="mt-5 size_image center-content_radius"
@@ -205,8 +205,8 @@ const Content = () => {
                 <div className="d-flex align-items-center mt-5">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
-                    width="10%"
-                    height="10%"
+                    width="40px"
+                    height="40px"
                     preserveAspectRatio="none"
                     viewBox="0 0 24 24"
                     className=""
@@ -233,20 +233,23 @@ const Content = () => {
                     <i className="fa fa-check icon_check"></i>Vay theo thẻ bảo
                     hiểm y tế
                   </h5>
+                  <h5>
+                    <i className="fa fa-check icon_check"></i>Vay tin chấp
+                  </h5>
                 </div>
               </div>
             </div>
           </div>
         </div>
         <div className="row d-flex zindex-fixed justify-content-center text-center mt-5 w-100 margin_left_mobile">
-          <div className="row mt-5 d-flex zindex-fixed justify-content-center center_content_2 center-content_radius">
+          <div className="row mt-10 d-flex zindex-fixed justify-content-center center_content_2 center-content_radius">
             <div className="col-6 center-content_mobile">
               <div className="d-flex align-items-center mt-5">
                 <h3 className="text-white">ĐIỀU KIỆN ĐƠN GIẢN</h3>
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
-                  width="10%"
-                  height="10%"
+                  width="40px"
+                  height="40px"
                   preserveAspectRatio="none"
                   viewBox="0 0 24 24"
                   className=""
@@ -287,14 +290,14 @@ const Content = () => {
           </div>
         </div>
       </div>
-      <div className="row d-flex zindex-fixed justify-content-center text-center mt-5 w-100 margin_left_mobile">
+      <div className="row d-flex zindex-fixed justify-content-center text-center mt-10 w-100 margin_left_mobile">
         <div className="row mt-5 d-flex zindex-fixed justify-content-center center_content_3 center-content_radius">
           <div className="col-6 center-content_mobile font_size_normal">
-            <div className="d-flex zindex-fixed justify-content-center mt-5 text-start text_center_content_title">
+            <div className="d-flex zindex-fixed justify-content-center mt-5 text-start text_center_content_title flex_item_mobile">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
-                width="10%"
-                height="10%"
+                width="40px"
+                height="40px"
                 preserveAspectRatio="none"
                 viewBox="0 0 24 24"
                 className=""
@@ -307,17 +310,17 @@ const Content = () => {
                 NHANH CHÓNG
               </h4>
             </div>
-            <p className="text-center ms-5">
+            <p className="text-center text_step_4 ms-5">
               Thời gian vay tín chấp linh hoạt <br />
               Không hỗ trợ khoản vay có thời hạn dưới 60 ngày.
             </p>
-            <div className="d-flex zindex-fixed justify-content-center">
-              <div className="card center_content_size">
+            <div className="d-flex zindex-fixed justify-content-center flex_item_mobile">
+              <div className="card center_content_size mt-10-mobile">
                 <div className="card-body">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
-                    width="15%"
-                    height="20%"
+                    width="40px"
+                    height="40px"
                     preserveAspectRatio="none"
                     viewBox="0 0 24 24"
                     className=""
@@ -331,12 +334,12 @@ const Content = () => {
                   </p>
                 </div>
               </div>
-              <div className="card center_content_size content_center_5">
+              <div className="card content_center_5 center_content_size mt-10-mobile">
                 <div className="card-body">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
-                    width="15%"
-                    height="20%"
+                    width="40px"
+                    height="40px"
                     preserveAspectRatio="none"
                     viewBox="0 0 24 24"
                     className=""
@@ -353,13 +356,13 @@ const Content = () => {
               </div>
             </div>
           </div>
-          <div className="col-6 d-flex center-content_mobile font_size_normal">
-            <div className="card center_content_size">
+          <div className="col-6 d-flex center-content_mobile font_size_normal flex_item_mobile">
+            <div className="card center_content_size mt-10-mobile">
               <div className="card-body">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
-                  width="15%"
-                  height="20%"
+                  width="40px"
+                  height="40px"
                   preserveAspectRatio="none"
                   viewBox="0 0 24 24"
                   className=""
@@ -373,12 +376,12 @@ const Content = () => {
                 </p>
               </div>
             </div>
-            <div className="card content_center_5 center_content_size">
+            <div className="card content_center_5 center_content_size mt-10-mobile">
               <div className="card-body">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
-                  width="15%"
-                  height="20%"
+                  width="40px"
+                  height="40px"
                   preserveAspectRatio="none"
                   viewBox="0 0 24 24"
                   className=""
@@ -395,7 +398,7 @@ const Content = () => {
           </div>
         </div>
       </div>
-      <div className="row d-flex zindex-fixed justify-content-center text-center mt-5 w-100 margin_left_mobile">
+      <div className="row d-flex zindex-fixed justify-content-center text-center mt-10 w-100 margin_left_mobile">
         <h4 className="color_title_table">
           BẢNG MINH HỌA SỐ TIỀN PHẢI ĐÓNG HÀNG THÁNG
         </h4>
@@ -405,21 +408,20 @@ const Content = () => {
         </p>
         <img className="w-50" src="../images/imgaes_lai_suat.png" alt="" />
       </div>
-      <div className="position-relative row d-flex zindex-fixed justify-content-center text-center mt-5 w-100 margin_left_mobile">
+      <div className="position-relative row d-flex zindex-fixed justify-content-center text-center mt-10 w-100 margin_left_mobile">
         <h4 className="color_title_table fs-2">
           Cảm Nhận Khách Hàng Khi Vay Tiêu Dùng
         </h4>
         <p>Chúng tôi luôn nỗ lực để đáp ứng mọi nhu cầu khách hàng</p>
         <div className="row h-100 mt-5">
-          <span className="">
+          <span className=""></span>
+          <span className="col-6 d-flex flex-column justify-content-center bg_normal frame_member size_frame_name">
+            <div className="triangle triangle_right"></div>
             <img
-              className="position-absolute top-0 start-0 margin_avatar_1 size_avatar rounded-circle border border-5 border-primary"
+              className="position-absolute margin_avatar_1 size_avatar rounded-circle border border-5 border-primary"
               src="../images/avatar_bot_content_1.jpg"
               alt=""
             />
-          </span>
-          <span className="col-6 d-flex flex-column justify-content-center bg_normal frame_member size_frame_name">
-            <div className="triangle triangle_right"></div>
             <p className="text-white fs-3 fw-bold text_mobile">
               Nguyễn Xuân Quỳnh <br />
             </p>
@@ -462,16 +464,14 @@ const Content = () => {
           </span>
         </div>
         <div className="row h-100 mt-5 flex-row-reverse position-relative">
-          <span className="">
+          <span className=""></span>
+          <span className="col-6 d-flex flex-column justify-content-center bg_normal frame_member size_frame_name">
+            <div className="triangle triangle_left"></div>
             <img
-              className="position-absolute top-0 start-0 margin_avatar_2 size_avatar rounded-circle border border-5 border-primary"
+              className="position-absolute  margin_avatar_2 size_avatar rounded-circle border border-5 border-primary"
               src="../images/avatar_bot_content_2.jpg"
               alt=""
             />
-          </span>
-          <span className="col-6 d-flex flex-column justify-content-center bg_normal frame_member size_frame_name">
-            <div className="triangle triangle_left"></div>
-
             <p className="text-white fs-3 fw-bold text_mobile">
               Bùi Minh Hiếu <br />
             </p>
@@ -514,7 +514,7 @@ const Content = () => {
           </span>
         </div>
       </div>
-      <div className="d-flex flex-row text-start font_size_normal mt-5 text-white example_register_mobile">
+      <div className="d-flex flex-row text-start font_size_normal mt-10 text-white example_register_mobile">
         <div className="col-6 bg-primary rounded example_register_mobile">
           <h3 className="text-center fw-bold mt-5">VÍ DỤ KHOẢN VAY</h3>
           <div className="text_example">
@@ -572,7 +572,7 @@ const Content = () => {
           </div>
         </div>
       </div>
-      <div className="position-relative row d-flex zindex-fixed justify-content-center text-center mt-5 w-100 margin_left_mobile"></div>
+      <div className="position-relative row d-flex zindex-fixed justify-content-center text-center mt-10 w-100 margin_left_mobile"></div>
       <div className="d-flex flex-row text-start font_size_normal mt-5 text-white example_register_mobile">
         <div className="row bg-primary rounded example_register_mobile p-5 attention">
           <h3 className="text-center">

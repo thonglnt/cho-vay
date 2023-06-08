@@ -17,14 +17,17 @@ const Header = () => {
           </div>
         </div>
       </div>
-      <div className="row d-flex zindex-fixed justify-content-center list-choice rounded w-100">
-        <div className="col-3 list">
-          <div className="card card-header bg-white text-center">
+      <div
+        className="row d-flex justify-content-center list-choice rounded"
+        style={{ marginRight: "0px" }}
+      >
+        <div className="col-auto list ">
+          <div className="card card-header bg-primary text-white text-center mt-10">
             <div className="text-center">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="100%"
-                height="100%"
+                height="69px"
                 preserveAspectRatio="none"
                 viewBox="0 0 1611.2499 1896.0833"
                 className="icon_header"
@@ -42,13 +45,13 @@ const Header = () => {
             </div>
           </div>
         </div>
-        <div className="col-3 list">
-          <div className="card card-header bg-white text-center">
+        <div className="col-auto list ">
+          <div className="card card-header bg-primary text-white text-center mt-10">
             <div className="text-center">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="100%"
-                height="100%"
+                height="69px"
                 preserveAspectRatio="none"
                 viewBox="0 0 974.0545 1896.0833"
                 className="icon_header"
@@ -66,13 +69,13 @@ const Header = () => {
             </div>
           </div>
         </div>
-        <div className="col-3 list">
-          <div className="card card-header bg-white text-center">
+        <div className="col-auto list ">
+          <div className="card card-header bg-primary text-white text-center mt-10">
             <div className="text-center">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="100%"
-                height="100%"
+                height="69px"
                 preserveAspectRatio="none"
                 viewBox="0 0 1611.2499 1896.0833"
                 className="icon_header"
@@ -90,13 +93,13 @@ const Header = () => {
             </div>
           </div>
         </div>
-        <div className="col-3 list">
-          <div className="card card-header bg-white text-center">
+        <div className="col-auto list ">
+          <div className="card card-header bg-primary text-white text-center mt-10">
             <div className="text-center">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="100%"
-                height="100%"
+                height="69px"
                 preserveAspectRatio="none"
                 viewBox="0 0 1920 1896.0833"
                 className="icon_header"
@@ -106,8 +109,8 @@ const Header = () => {
               </svg>
             </div>
             <div className="card-body">
-              <h6 className="card-title">Khoảng vay tới 900 triệu</h6>
-              <br />
+              <h6 className="card-title">Khoảng vay tới</h6>
+              <h6 className="card-title">900 triệu</h6>
               <button className="btn btn-primary btn-register">
                 ĐĂNG KÝ VAY
               </button>

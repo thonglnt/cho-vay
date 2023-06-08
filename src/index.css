@@ -14,8 +14,15 @@ code {
 
 /* responsive */
 @media only screen and (min-width: 740px) and (max-width: 1024px) {
+  .text_step_4 {
+    text-align: start !important;
+  }
+  /* */
   .box_header {
     right: 0px !important;
+  }
+  .list {
+    width: 50% !important;
   }
   .size_image {
     width: 250.5px !important;
@@ -23,6 +30,9 @@ code {
   }
   .box_center_content_text {
     height: 80% !important;
+  }
+  .center-content_tablet {
+    width: 100%;
   }
   .center-content {
     width: 100% !important;
@@ -39,10 +49,9 @@ code {
     height: 100%;
   }
   .margin_avatar_1 {
-    margin: 120px 75px !important;
   }
   .margin_avatar_2 {
-    margin: -12px 599px !important;
+    left: 68px;
   }
   .triangle_right,
   .triangle_left {
@@ -67,6 +76,17 @@ code {
   }
 }
 @media only screen and (max-width: 739px) {
+  .mt-10-mobile {
+    margin-top: 6rem !important;
+  }
+  .flex_item_mobile {
+    flex-direction: column;
+    align-items: center;
+  }
+  .text_step_4 {
+    text-align: start !important;
+  }
+  /* */
   .attention {
     margin: 0 auto;
     margin-right: 3px !important;
@@ -123,10 +143,10 @@ code {
     margin-left: 0px !important;
   }
   .margin_avatar_1 {
-    margin: 152px 8px !important;
+    left: 56px;
   }
   .margin_avatar_2 {
-    margin: -20px 11px !important;
+    left: 0px;
   }
   .triangle_right,
   .triangle_left {
@@ -168,7 +188,9 @@ code {
 .bg-primary {
   background-color: #0081d0 !important;
 }
-
+.radius_normal {
+  border-radius: 15px !important;
+}
 .size_image {
   width: 314.5px;
   height: 208.828px;
@@ -179,6 +201,9 @@ code {
 .btn-primary {
   color: #0081d0 !important;
   color: white !important;
+}
+.mt-10 {
+  margin-top: 6rem !important;
 }
 
 /* header  */
@@ -222,14 +247,19 @@ code {
 }
 .card-header:hover {
   background-image: linear-gradient(#0081d0, #00b09b);
-  transform: scale(1.1);
+  transform: scale(1.05);
+  color: white;
 }
 .icon_header {
   width: 59px;
   height: 69px;
 }
+.btn-register {
+  background-color: darkseagreen;
+}
 .btn-register:hover {
-  color: blanchedalmond;
+  color: white;
+  background-color: #e8b730;
 }
 /* center content  */
 .center_content_size {
@@ -239,7 +269,6 @@ code {
 .center_content,
 .center_content_2 {
   width: 80%;
-  height: 500px;
 }
 .center_content_2 {
   background-image: linear-gradient(#0081d0, #00b09b);
@@ -289,10 +318,10 @@ code {
   height: 112px;
 }
 .margin_avatar_1 {
-  margin: 125px 70px;
+  margin: 0px -50px;
 }
 .margin_avatar_2 {
-  margin: -10px 1300px;
+  right: 0px;
 }
 .frame_member {
   margin: 0 auto;
