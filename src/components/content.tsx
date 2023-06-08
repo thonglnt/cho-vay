@@ -168,7 +168,7 @@ const Content = () => {
       <div className="container mt-10 ">
         <div className="row d-flex zindex-fixed justify-content-center text-center w-100 margin_left_mobile">
           <div className="row mt-5 zindex-fixed justify-content-center center_content center-content_radius bg_normal">
-            <div className="col-12 btn-title">
+            <div className="col-12 btn-title fs-4">
               <div className="btn-title-content bg-white text-white center-content mb-5">
                 Ưu điểm nổi bật
               </div>
@@ -314,8 +314,8 @@ const Content = () => {
               Thời gian vay tín chấp linh hoạt <br />
               Không hỗ trợ khoản vay có thời hạn dưới 60 ngày.
             </p>
-            <div className="d-flex zindex-fixed justify-content-center flex_item_mobile">
-              <div className="card center_content_size mt-10-mobile">
+            <div className="d-flex zindex-fixed justify-content-center flex_item_mobile text-white">
+              <div className="card center_content_size mt-10-mobile bg-warning">
                 <div className="card-body">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -324,7 +324,7 @@ const Content = () => {
                     preserveAspectRatio="none"
                     viewBox="0 0 24 24"
                     className=""
-                    fill="rgba(16, 145, 115, 1)"
+                    fill="#0081d0"
                   >
                     <path d="M12,18C11.11,18 10.26,17.8 9.5,17.45C11.56,16.5 13,14.42 13,12C13,9.58 11.56,7.5 9.5,6.55C10.26,6.2 11.11,6 12,6A6,6 0 0,1 18,12A6,6 0 0,1 12,18M20,8.69V4H15.31L12,0.69L8.69,4H4V8.69L0.69,12L4,15.31V20H8.69L12,23.31L15.31,20H20V15.31L23.31,12L20,8.69Z"></path>
                   </svg>
@@ -356,8 +356,8 @@ const Content = () => {
               </div>
             </div>
           </div>
-          <div className="col-6 d-flex center-content_mobile font_size_normal flex_item_mobile">
-            <div className="card center_content_size mt-10-mobile">
+          <div className="col-6 d-flex center-content_mobile font_size_normal flex_item_mobile text-white">
+            <div className="card center_content_size mt-10-mobile bg-warning">
               <div className="card-body">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -366,7 +366,7 @@ const Content = () => {
                   preserveAspectRatio="none"
                   viewBox="0 0 24 24"
                   className=""
-                  fill="rgba(16, 145, 115, 1)"
+                  fill="#0081d0"
                 >
                   <path d="M12,18C11.11,18 10.26,17.8 9.5,17.45C11.56,16.5 13,14.42 13,12C13,9.58 11.56,7.5 9.5,6.55C10.26,6.2 11.11,6 12,6A6,6 0 0,1 18,12A6,6 0 0,1 12,18M20,8.69V4H15.31L12,0.69L8.69,4H4V8.69L0.69,12L4,15.31V20H8.69L12,23.31L15.31,20H20V15.31L23.31,12L20,8.69Z"></path>
                 </svg>
@@ -516,8 +516,8 @@ const Content = () => {
       </div>
       <div className="d-flex flex-row text-start font_size_normal mt-10 text-white example_register_mobile">
         <div className="col-6 bg-primary rounded example_register_mobile">
-          <h3 className="text-center fw-bold mt-5">VÍ DỤ KHOẢN VAY</h3>
-          <div className="text_example">
+          <h3 className="text-center fs-1 fw-bold mt-5">VÍ DỤ KHOẢN VAY</h3>
+          <div className="text_example font_size_mobile">
             <p>
               &#8861; Lãi suất được tính theo phương thức nợ giảm dần, hàng
               tháng sẽ trẻ gốc và lãi suất.
@@ -575,10 +575,10 @@ const Content = () => {
       <div className="position-relative row d-flex zindex-fixed justify-content-center text-center mt-10 w-100 margin_left_mobile"></div>
       <div className="d-flex flex-row text-start font_size_normal mt-5 text-white example_register_mobile">
         <div className="row bg-primary rounded example_register_mobile p-5 attention">
-          <h3 className="text-center">
+          <h3 className="text-center fs-1 fw-bold mt-5">
             MỘT VÀI LƯU Ý KHI VAY TÍN CHẤP CHO KHÁCH HÀNG
           </h3>
-          <div className="text-start font_size_text w-100">
+          <div className="text-start font_size_text w-100 font_size_mobile">
             <p className="fw-bold">
               &#8861; Tính toán khả năng trả nợ Trước khi nhận khoản vay: bạn
               cần phải biết chính xác về khả năng thanh toán hàng tháng của

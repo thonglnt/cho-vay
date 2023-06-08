@@ -38,28 +38,30 @@ const Footer = () => {
               Website: vaytheoluong365.online
             </p>
           </div>
-          <div className="col-6">
+          <div className="col-6 ">
             <p className="text-center fw-bold fs-5">
               Đáp ứng mọi nhu cầu của khách hàng
             </p>
-            <p className="text-start">
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                data-name="Layer 1"
-                viewBox="0 0 100 100"
-                x="0px"
-                y="0px"
-                preserveAspectRatio="none"
-                width="21.34px"
-                height="21.34px"
-                className=""
-                fill="rgba(255, 255, 255, 1.0)"
-              >
-                <title>Artboard 26</title>
-                <path d="M98.85,61.58a4.85,4.85,0,0,1-3.52,5.89L40.13,81.36A9.78,9.78,0,1,1,29.35,76.9c.31-.08.63-.14.94-.19L17.06,24.11,2.78,12.44A4.85,4.85,0,1,1,8.92,4.93L24.44,17.62a4.85,4.85,0,0,1,1.63,2.57L39,71.64,93,58.06A4.85,4.85,0,0,1,98.85,61.58Zm-65.08-40a3.57,3.57,0,0,1,2.59-4.33l8.46-2.13,6.26-1.57L60,11.33l6.66-1.67,7.68-1.93a3.57,3.57,0,0,1,4.33,2.59l9.55,37.94a3.57,3.57,0,0,1-2.59,4.33L47.65,62.13a3.57,3.57,0,0,1-4.33-2.59ZM50.89,31.77c1,3.85,4.37,5.11,9,5.47,3.19.25,4.7.89,5.08,2.4s-.93,2.85-3.19,3.42a13.79,13.79,0,0,1-4.48.34,2.43,2.43,0,0,0-.8.06,2.32,2.32,0,0,0-1.77,2.23v.2a2.37,2.37,0,0,0,2.22,2.38,18.93,18.93,0,0,0,5-.35l.46,1.83a2,2,0,1,0,3.89-1l-.53-2.11c4.37-1.94,6.11-5.59,5.22-9.13s-3.36-5.28-8.51-5.76c-3.7-.42-5.3-.91-5.63-2.22-.28-1.11.27-2.44,2.86-3.08a12.59,12.59,0,0,1,3.64-.38A2.29,2.29,0,0,0,64,26a2.37,2.37,0,0,0-.55-4.67,17.49,17.49,0,0,0-3.76.39l-.39-1.55a2,2,0,0,0-3.89,1L55.82,23C51.78,24.91,50,28.27,50.89,31.77Z"></path>
-              </svg>
-              Returns & Shipping Policy
-              <p className="text-center contact_list_footer ">
+            <div className="col-auto">
+              <p className="text-start">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  data-name="Layer 1"
+                  viewBox="0 0 100 100"
+                  x="0px"
+                  y="0px"
+                  preserveAspectRatio="none"
+                  width="21.34px"
+                  height="21.34px"
+                  className=""
+                  fill="rgba(255, 255, 255, 1.0)"
+                >
+                  <title>Artboard 26</title>
+                  <path d="M98.85,61.58a4.85,4.85,0,0,1-3.52,5.89L40.13,81.36A9.78,9.78,0,1,1,29.35,76.9c.31-.08.63-.14.94-.19L17.06,24.11,2.78,12.44A4.85,4.85,0,1,1,8.92,4.93L24.44,17.62a4.85,4.85,0,0,1,1.63,2.57L39,71.64,93,58.06A4.85,4.85,0,0,1,98.85,61.58Zm-65.08-40a3.57,3.57,0,0,1,2.59-4.33l8.46-2.13,6.26-1.57L60,11.33l6.66-1.67,7.68-1.93a3.57,3.57,0,0,1,4.33,2.59l9.55,37.94a3.57,3.57,0,0,1-2.59,4.33L47.65,62.13a3.57,3.57,0,0,1-4.33-2.59ZM50.89,31.77c1,3.85,4.37,5.11,9,5.47,3.19.25,4.7.89,5.08,2.4s-.93,2.85-3.19,3.42a13.79,13.79,0,0,1-4.48.34,2.43,2.43,0,0,0-.8.06,2.32,2.32,0,0,0-1.77,2.23v.2a2.37,2.37,0,0,0,2.22,2.38,18.93,18.93,0,0,0,5-.35l.46,1.83a2,2,0,1,0,3.89-1l-.53-2.11c4.37-1.94,6.11-5.59,5.22-9.13s-3.36-5.28-8.51-5.76c-3.7-.42-5.3-.91-5.63-2.22-.28-1.11.27-2.44,2.86-3.08a12.59,12.59,0,0,1,3.64-.38A2.29,2.29,0,0,0,64,26a2.37,2.37,0,0,0-.55-4.67,17.49,17.49,0,0,0-3.76.39l-.39-1.55a2,2,0,0,0-3.89,1L55.82,23C51.78,24.91,50,28.27,50.89,31.77Z"></path>
+                </svg>
+                Returns & Shipping Policy
+              </p>
+              <p className="text-start">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   xmlnsXlink="http://www.w3.org/1999/xlink"
@@ -387,150 +389,150 @@ const Footer = () => {
                 </svg>
                 Privacy Policy
               </p>
-            </p>
-            <p className="text-start">
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                xmlnsXlink="http://www.w3.org/1999/xlink"
-                version="1.1"
-                x="0px"
-                y="0px"
-                viewBox="0 0 64 64"
-                enable-background="new 0 0 64 64"
-                xmlSpace="preserve"
-                preserveAspectRatio="none"
-                width="21.34px"
-                height="21.34px"
-                className=""
-                fill="rgba(255, 255, 255, 1.0)"
-              >
-                <g display="none">
-                  <rect
-                    x="-306.495"
-                    y="-10.779"
-                    display="inline"
-                    width="787"
-                    height="375.042"
-                  ></rect>
-                </g>
-                <g display="none">
-                  <g display="inline">
-                    <path d="M60,64H4c-2.2,0-4-1.8-4-4V4c0-2.2,1.8-4,4-4h56c2.2,0,4,1.8,4,4v56C64,62.2,62.2,64,60,64z"></path>
-                    <line
-                      stroke="#FFFFFF"
-                      stroke-width="6"
-                      stroke-miterlimit="10"
-                      x1="12.5"
-                      y1="15.333"
-                      x2="51.5"
-                      y2="15.333"
-                    ></line>
-                    <line
-                      stroke="#FFFFFF"
-                      stroke-width="6"
-                      stroke-miterlimit="10"
-                      x1="12.5"
-                      y1="32"
-                      x2="51.5"
-                      y2="32"
-                    ></line>
-                    <line
-                      stroke="#FFFFFF"
-                      stroke-width="6"
-                      stroke-miterlimit="10"
-                      x1="12.5"
-                      y1="48.667"
-                      x2="51.5"
-                      y2="48.667"
-                    ></line>
+              <p className="text-start">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  xmlnsXlink="http://www.w3.org/1999/xlink"
+                  version="1.1"
+                  x="0px"
+                  y="0px"
+                  viewBox="0 0 64 64"
+                  enable-background="new 0 0 64 64"
+                  xmlSpace="preserve"
+                  preserveAspectRatio="none"
+                  width="21.34px"
+                  height="21.34px"
+                  className=""
+                  fill="rgba(255, 255, 255, 1.0)"
+                >
+                  <g display="none">
+                    <rect
+                      x="-306.495"
+                      y="-10.779"
+                      display="inline"
+                      width="787"
+                      height="375.042"
+                    ></rect>
                   </g>
-                </g>
-                <g display="none">
-                  <path
-                    display="inline"
-                    stroke="#000000"
-                    stroke-width="2"
-                    stroke-miterlimit="10"
-                    d="M59.127,62.969H4.873   C2.743,62.969,1,61.226,1,59.096V4.904c0-2.13,1.743-3.873,3.873-3.873h54.254c2.13,0,3.873,1.743,3.873,3.873v54.191   C63,61.226,61.257,62.969,59.127,62.969z"
-                  ></path>
-                  <rect
-                    x="13.109"
-                    y="12.967"
-                    display="inline"
-                    stroke="#000000"
-                    stroke-width="2"
-                    stroke-miterlimit="10"
-                    width="37.781"
-                    height="5.807"
-                  ></rect>
-                  <rect
-                    x="13.109"
-                    y="29.097"
-                    display="inline"
-                    stroke="#000000"
-                    stroke-width="2"
-                    stroke-miterlimit="10"
-                    width="37.781"
-                    height="5.807"
-                  ></rect>
-                  <rect
-                    x="13.109"
-                    y="45.227"
-                    display="inline"
-                    stroke="#000000"
-                    stroke-width="2"
-                    stroke-miterlimit="10"
-                    width="37.781"
-                    height="5.807"
-                  ></rect>
-                </g>
-                <g>
+                  <g display="none">
+                    <g display="inline">
+                      <path d="M60,64H4c-2.2,0-4-1.8-4-4V4c0-2.2,1.8-4,4-4h56c2.2,0,4,1.8,4,4v56C64,62.2,62.2,64,60,64z"></path>
+                      <line
+                        stroke="#FFFFFF"
+                        stroke-width="6"
+                        stroke-miterlimit="10"
+                        x1="12.5"
+                        y1="15.333"
+                        x2="51.5"
+                        y2="15.333"
+                      ></line>
+                      <line
+                        stroke="#FFFFFF"
+                        stroke-width="6"
+                        stroke-miterlimit="10"
+                        x1="12.5"
+                        y1="32"
+                        x2="51.5"
+                        y2="32"
+                      ></line>
+                      <line
+                        stroke="#FFFFFF"
+                        stroke-width="6"
+                        stroke-miterlimit="10"
+                        x1="12.5"
+                        y1="48.667"
+                        x2="51.5"
+                        y2="48.667"
+                      ></line>
+                    </g>
+                  </g>
+                  <g display="none">
+                    <path
+                      display="inline"
+                      stroke="#000000"
+                      stroke-width="2"
+                      stroke-miterlimit="10"
+                      d="M59.127,62.969H4.873   C2.743,62.969,1,61.226,1,59.096V4.904c0-2.13,1.743-3.873,3.873-3.873h54.254c2.13,0,3.873,1.743,3.873,3.873v54.191   C63,61.226,61.257,62.969,59.127,62.969z"
+                    ></path>
+                    <rect
+                      x="13.109"
+                      y="12.967"
+                      display="inline"
+                      stroke="#000000"
+                      stroke-width="2"
+                      stroke-miterlimit="10"
+                      width="37.781"
+                      height="5.807"
+                    ></rect>
+                    <rect
+                      x="13.109"
+                      y="29.097"
+                      display="inline"
+                      stroke="#000000"
+                      stroke-width="2"
+                      stroke-miterlimit="10"
+                      width="37.781"
+                      height="5.807"
+                    ></rect>
+                    <rect
+                      x="13.109"
+                      y="45.227"
+                      display="inline"
+                      stroke="#000000"
+                      stroke-width="2"
+                      stroke-miterlimit="10"
+                      width="37.781"
+                      height="5.807"
+                    ></rect>
+                  </g>
                   <g>
-                    <path d="M4.873,63.969h54.254c2.687,0,4.873-2.187,4.873-4.873V4.904c0-2.687-2.187-4.873-4.873-4.873H4.873    C2.187,0.031,0,2.217,0,4.904v54.191C0,61.782,2.187,63.969,4.873,63.969z M13.109,12.967h37.781v5.807H13.109V12.967z     M13.109,29.097h37.781v5.807H13.109V29.097z M13.109,45.227h37.781v5.807H13.109V45.227z"></path>
+                    <g>
+                      <path d="M4.873,63.969h54.254c2.687,0,4.873-2.187,4.873-4.873V4.904c0-2.687-2.187-4.873-4.873-4.873H4.873    C2.187,0.031,0,2.217,0,4.904v54.191C0,61.782,2.187,63.969,4.873,63.969z M13.109,12.967h37.781v5.807H13.109V12.967z     M13.109,29.097h37.781v5.807H13.109V29.097z M13.109,45.227h37.781v5.807H13.109V45.227z"></path>
+                    </g>
                   </g>
-                </g>
-                <g display="none">
-                  <path
-                    display="inline"
-                    stroke="#000000"
-                    stroke-width="2"
-                    stroke-miterlimit="10"
-                    d="M59.127,62.969H4.873   C2.743,62.969,1,61.226,1,59.096V4.904c0-2.13,1.743-3.873,3.873-3.873h54.254c2.13,0,3.873,1.743,3.873,3.873v54.191   C63,61.226,61.257,62.969,59.127,62.969z"
-                  ></path>
-                  <rect
-                    x="13.109"
-                    y="12.967"
-                    display="inline"
-                    stroke="#000000"
-                    stroke-width="2"
-                    stroke-miterlimit="10"
-                    width="37.781"
-                    height="5.807"
-                  ></rect>
-                  <rect
-                    x="13.109"
-                    y="29.097"
-                    display="inline"
-                    stroke="#000000"
-                    stroke-width="2"
-                    stroke-miterlimit="10"
-                    width="37.781"
-                    height="5.807"
-                  ></rect>
-                  <rect
-                    x="13.109"
-                    y="45.227"
-                    display="inline"
-                    stroke="#000000"
-                    stroke-width="2"
-                    stroke-miterlimit="10"
-                    width="37.781"
-                    height="5.807"
-                  ></rect>
-                </g>
-              </svg>
-              Terms of Use
-              <p className="text-center contact_list_footer  ">
+                  <g display="none">
+                    <path
+                      display="inline"
+                      stroke="#000000"
+                      stroke-width="2"
+                      stroke-miterlimit="10"
+                      d="M59.127,62.969H4.873   C2.743,62.969,1,61.226,1,59.096V4.904c0-2.13,1.743-3.873,3.873-3.873h54.254c2.13,0,3.873,1.743,3.873,3.873v54.191   C63,61.226,61.257,62.969,59.127,62.969z"
+                    ></path>
+                    <rect
+                      x="13.109"
+                      y="12.967"
+                      display="inline"
+                      stroke="#000000"
+                      stroke-width="2"
+                      stroke-miterlimit="10"
+                      width="37.781"
+                      height="5.807"
+                    ></rect>
+                    <rect
+                      x="13.109"
+                      y="29.097"
+                      display="inline"
+                      stroke="#000000"
+                      stroke-width="2"
+                      stroke-miterlimit="10"
+                      width="37.781"
+                      height="5.807"
+                    ></rect>
+                    <rect
+                      x="13.109"
+                      y="45.227"
+                      display="inline"
+                      stroke="#000000"
+                      stroke-width="2"
+                      stroke-miterlimit="10"
+                      width="37.781"
+                      height="5.807"
+                    ></rect>
+                  </g>
+                </svg>
+                Terms of Use
+              </p>
+              <p className="text-start">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   xmlnsXlink="http://www.w3.org/1999/xlink"
@@ -550,7 +552,21 @@ const Footer = () => {
                 </svg>
                 Contact Us
               </p>
-            </p>
+            </div>
+            <div className="col-auto d-flex h-100">
+              <div className="icon_contact_1">
+                <img
+                  className="icon_contact"
+                  src="../images/contact_icon.png"
+                  alt="visa_mastercard"
+                />
+                <img
+                  className="icon_contact"
+                  src="../images/bo_cong_thuong.jpg"
+                  alt="Chung_nhan_bo_cong_thuong"
+                />
+              </div>
+            </div>
           </div>
         </div>
 

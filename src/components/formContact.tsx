@@ -27,7 +27,7 @@ const FormContact = () => {
   };
 
   return (
-    <div className="bg-light w-50 form_example rounded text-dark text_form_lai w-100">
+    <div className="bg-light w-50 form_example rounded text-dark text_form_lai ">
       <h6 className="text-center fw-bold fs-4 text-danger">
         ĐĂNG KÝ NHẬN TƯ VẤN
       </h6>
@@ -115,7 +115,7 @@ const FormContact = () => {
             placeholder="Số tiền cần vay"
           />
         </div>
-        <button className="btn btn-danger from_input mt-2" type="submit">
+        <button className="btn btn-danger from_input mt-2 w-100" type="submit">
           Gửi đi
         </button>
         <p className="text_form">

@@ -86,6 +86,9 @@ code {
   .text_step_4 {
     text-align: start !important;
   }
+  .font_size_mobile {
+    font-size: 18px !important;
+  }
   /* */
   .attention {
     margin: 0 auto;
@@ -355,7 +358,6 @@ code {
 }
 .image_example {
   width: 200px;
-  height: 215px;
 }
 .form_example {
   margin: 0 auto;
@@ -382,6 +384,9 @@ code {
 .icon_footer {
   width: 230px;
   height: 42px;
+}
+.icon_contact_1 {
+  height: 100px;
 }
 .icon_contact {
   width: 112px;
