@@ -396,133 +396,138 @@ const Content = () => {
             />
           </div>
         </div>
-        <div className="row justify-content-center mt-5">
-          <div className="row">
-            <div className="col-md-6">
-              <div className="d-flex flex-row">
-                <div className="col-md-2 col-3 d-flex justify-content-start">
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    width="100%"
-                    height="69px"
-                    preserveAspectRatio="none"
-                    viewBox="0 0 24 24"
-                    className=""
-                    fill="rgba(232, 140, 48, 1)"
-                  >
-                    <path d="M21,17H7V3H21M21,1H7A2,2 0 0,0 5,3V17A2,2 0 0,0 7,19H21A2,2 0 0,0 23,17V3A2,2 0 0,0 21,1M15,15H17V5H15V9H13V5H11V11H15M3,5H1V21A2,2 0 0,0 3,23H19V21H3V5Z"></path>
-                  </svg>
-                </div>
-                <div className="col-md-10 col-9 text-start">
-                  <h4>BƯỚC ĐĂNG KÝ VAY NHANH CHÓNG</h4>
-                  <p>
-                    Thời gian vay tín chấp linh hoạt <br />
-                    Không hỗ trợ khoản vay có thời hạn dưới 60 ngày.
-                  </p>
-                  <hr className="w-50" />
-                </div>
-              </div>
-            </div>
-            <div className="col-md-6 p-0 mg-top-negative-1">
-              <div className="d-flex p-0 flex-column flex-md-row">
-                <div className="col-md-6">
-                  <div className="text-center bg-warning height-step-4 mt-3">
-                    <div className="card-body">
-                      <svg
-                        xmlns="http://www.w3.org/2000/svg"
-                        width="36px"
-                        height="36px"
-                        preserveAspectRatio="none"
-                        viewBox="0 0 24 24"
-                        className=""
-                        fill="rgba(255, 255, 255, 1)"
-                      >
-                        <path d="M12,18C11.11,18 10.26,17.8 9.5,17.45C11.56,16.5 13,14.42 13,12C13,9.58 11.56,7.5 9.5,6.55C10.26,6.2 11.11,6 12,6A6,6 0 0,1 18,12A6,6 0 0,1 12,18M20,8.69V4H15.31L12,0.69L8.69,4H4V8.69L0.69,12L4,15.31V20H8.69L12,23.31L15.31,20H20V15.31L23.31,12L20,8.69Z"></path>
-                      </svg>
-                      <h6 className="card-title fs-title-step-4 fw-bold">
-                        KÝ KẾT HỢP ĐỒNG
-                      </h6>
-                      <p className="card-text fs-step-4">
-                        Hỗ trợ ký hợp đồng online hoặc trực tiếp
-                      </p>
+        <div className="mt-5">
+          <div className="pt-5">
+            <div className="container">
+              <div className="row justify-content-center">
+                <div className="row d-flex">
+                  <div className="col-md-6">
+                    <div className="row d-flex flex-row">
+                      <div className="col-md-2 col-3 d-flex justify-content-start">
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          width="100%"
+                          height="69px"
+                          preserveAspectRatio="none"
+                          viewBox="0 0 24 24"
+                          className=""
+                          fill="rgba(232, 140, 48, 1)"
+                        >
+                          <path d="M21,17H7V3H21M21,1H7A2,2 0 0,0 5,3V17A2,2 0 0,0 7,19H21A2,2 0 0,0 23,17V3A2,2 0 0,0 21,1M15,15H17V5H15V9H13V5H11V11H15M3,5H1V21A2,2 0 0,0 3,23H19V21H3V5Z"></path>
+                        </svg>
+                      </div>
+                      <div className="col-md-10 col-9 text-start">
+                        <h4>BƯỚC ĐĂNG KÝ VAY NHANH CHÓNG</h4>
+                        <p>
+                          Thời gian vay tín chấp linh hoạt <br />
+                          Không hỗ trợ khoản vay có thời hạn dưới 60 ngày.
+                        </p>
+                        <hr className="w-50" />
+                      </div>
+                    </div>
+                  </div>
+                  <div className="col-md-6 p-0">
+                    <div className="d-flex mt-5 p-0 flex-column flex-md-row">
+                      <div className="col-md-6">
+                        <div className="text-center bg-warning height-step-4 mt-3">
+                          <div className="card-body">
+                            <svg
+                              xmlns="http://www.w3.org/2000/svg"
+                              width="36px"
+                              height="36px"
+                              preserveAspectRatio="none"
+                              viewBox="0 0 24 24"
+                              className=""
+                              fill="rgba(255, 255, 255, 1)"
+                            >
+                              <path d="M12,18C11.11,18 10.26,17.8 9.5,17.45C11.56,16.5 13,14.42 13,12C13,9.58 11.56,7.5 9.5,6.55C10.26,6.2 11.11,6 12,6A6,6 0 0,1 18,12A6,6 0 0,1 12,18M20,8.69V4H15.31L12,0.69L8.69,4H4V8.69L0.69,12L4,15.31V20H8.69L12,23.31L15.31,20H20V15.31L23.31,12L20,8.69Z"></path>
+                            </svg>
+                            <h6 className="card-title fs-title-step-4 fw-bold">
+                              KÝ KẾT HỢP ĐỒNG
+                            </h6>
+                            <p className="card-text fs-step-4">
+                              Hỗ trợ ký hợp đồng online hoặc trực tiếp
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                      <div className="col-md-6">
+                        <div className="text-center bg-normal height-step-4 mt-3">
+                          <div className="card-body">
+                            <svg
+                              xmlns="http://www.w3.org/2000/svg"
+                              width="36px"
+                              height="36px"
+                              preserveAspectRatio="none"
+                              viewBox="0 0 24 24"
+                              className=""
+                              fill="rgba(255, 255, 255, 1)"
+                            >
+                              <path d="M12,18C11.11,18 10.26,17.8 9.5,17.45C11.56,16.5 13,14.42 13,12C13,9.58 11.56,7.5 9.5,6.55C10.26,6.2 11.11,6 12,6A6,6 0 0,1 18,12A6,6 0 0,1 12,18M20,8.69V4H15.31L12,0.69L8.69,4H4V8.69L0.69,12L4,15.31V20H8.69L12,23.31L15.31,20H20V15.31L23.31,12L20,8.69Z"></path>
+                            </svg>
+                            <h6 className="card-title fs-title-step-4 fw-bold">
+                              PHÊ DUYỆT-GIẢI NGÂN
+                            </h6>
+                            <p className="card-text fs-step-4">
+                              Đợi 24 tiếng tính từ ngày sau ngày ký kết hợp đồng
+                              để được thẩm định và phê duyệt khoản vay
+                            </p>
+                          </div>
+                        </div>
+                      </div>
                     </div>
                   </div>
                 </div>
-                <div className="col-md-6">
-                  <div className="text-center bg-normal height-step-4 mt-3">
-                    <div className="card-body">
-                      <svg
-                        xmlns="http://www.w3.org/2000/svg"
-                        width="36px"
-                        height="36px"
-                        preserveAspectRatio="none"
-                        viewBox="0 0 24 24"
-                        className=""
-                        fill="rgba(255, 255, 255, 1)"
-                      >
-                        <path d="M12,18C11.11,18 10.26,17.8 9.5,17.45C11.56,16.5 13,14.42 13,12C13,9.58 11.56,7.5 9.5,6.55C10.26,6.2 11.11,6 12,6A6,6 0 0,1 18,12A6,6 0 0,1 12,18M20,8.69V4H15.31L12,0.69L8.69,4H4V8.69L0.69,12L4,15.31V20H8.69L12,23.31L15.31,20H20V15.31L23.31,12L20,8.69Z"></path>
-                      </svg>
-                      <h6 className="card-title fs-title-step-4 fw-bold">
-                        PHÊ DUYỆT - GIẢI NGÂN
-                      </h6>
-                      <p className="card-text fs-step-4">
-                        Đợi 24 tiếng tính từ ngày sau ngày ký kết hợp đồng để
-                        được thẩm định và phê duyệt khoản vay
-                      </p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div className="row">
-            <div className="col-md-6 p-0 mg-top-negative-1">
-              <div className="d-flex p-0 flex-column flex-md-row">
-                <div className="col-md-6">
-                  <div className="text-center bg-warning height-step-4 mt-3">
-                    <div className="card-body">
-                      <svg
-                        xmlns="http://www.w3.org/2000/svg"
-                        width="36px"
-                        height="36px"
-                        preserveAspectRatio="none"
-                        viewBox="0 0 24 24"
-                        className=""
-                        fill="rgba(255, 255, 255, 1)"
-                      >
-                        <path d="M12,18C11.11,18 10.26,17.8 9.5,17.45C11.56,16.5 13,14.42 13,12C13,9.58 11.56,7.5 9.5,6.55C10.26,6.2 11.11,6 12,6A6,6 0 0,1 18,12A6,6 0 0,1 12,18M20,8.69V4H15.31L12,0.69L8.69,4H4V8.69L0.69,12L4,15.31V20H8.69L12,23.31L15.31,20H20V15.31L23.31,12L20,8.69Z"></path>
-                      </svg>
-                      <h6 className="card-title fs-title-step-4 fw-bold">
-                        ĐĂNG KÝ VAY
-                      </h6>
-                      <p className="card-text fs-step-4">
-                        Đăng ký vay tín chấp, và nhận tư vấn
-                      </p>
-                    </div>
-                  </div>
-                </div>
-                <div className="col-md-6">
-                  <div className="text-center bg-normal height-step-4 mt-3">
-                    <div className="card-body">
-                      <svg
-                        xmlns="http://www.w3.org/2000/svg"
-                        width="36px"
-                        height="36px"
-                        preserveAspectRatio="none"
-                        viewBox="0 0 24 24"
-                        className=""
-                        fill="rgba(255, 255, 255, 1)"
-                      >
-                        <path d="M12,18C11.11,18 10.26,17.8 9.5,17.45C11.56,16.5 13,14.42 13,12C13,9.58 11.56,7.5 9.5,6.55C10.26,6.2 11.11,6 12,6A6,6 0 0,1 18,12A6,6 0 0,1 12,18M20,8.69V4H15.31L12,0.69L8.69,4H4V8.69L0.69,12L4,15.31V20H8.69L12,23.31L15.31,20H20V15.31L23.31,12L20,8.69Z"></path>
-                      </svg>
-                      <h6 className="card-title fs-title-step-4 fw-bold">
-                        CHUẨN BỊ HỒ SƠ
-                      </h6>
-                      <p className="card-text fs-step-4">
-                        Chuẩn bị hồ sơ và hoàn tất thủ tục vay tiền như đã được
-                        tư vấn
-                      </p>
+                <div className="row">
+                  <div className="col-md-6 p-0 mg-top-negative-1">
+                    <div className="d-flex mt-5 p-0 flex-column flex-md-row">
+                      <div className="col-md-6">
+                        <div className="text-center bg-warning height-step-4 mt-3">
+                          <div className="card-body">
+                            <svg
+                              xmlns="http://www.w3.org/2000/svg"
+                              width="36px"
+                              height="36px"
+                              preserveAspectRatio="none"
+                              viewBox="0 0 24 24"
+                              className=""
+                              fill="rgba(255, 255, 255, 1)"
+                            >
+                              <path d="M12,18C11.11,18 10.26,17.8 9.5,17.45C11.56,16.5 13,14.42 13,12C13,9.58 11.56,7.5 9.5,6.55C10.26,6.2 11.11,6 12,6A6,6 0 0,1 18,12A6,6 0 0,1 12,18M20,8.69V4H15.31L12,0.69L8.69,4H4V8.69L0.69,12L4,15.31V20H8.69L12,23.31L15.31,20H20V15.31L23.31,12L20,8.69Z"></path>
+                            </svg>
+                            <h6 className="card-title fs-title-step-4 fw-bold">
+                              ĐĂNG KÝ VAY
+                            </h6>
+                            <p className="card-text fs-step-4">
+                              Đăng ký vay tín chấp, và nhận tư vấn
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                      <div className="col-md-6">
+                        <div className="text-center bg-normal height-step-4 mt-3">
+                          <div className="card-body">
+                            <svg
+                              xmlns="http://www.w3.org/2000/svg"
+                              width="36px"
+                              height="36px"
+                              preserveAspectRatio="none"
+                              viewBox="0 0 24 24"
+                              className=""
+                              fill="rgba(255, 255, 255, 1)"
+                            >
+                              <path d="M12,18C11.11,18 10.26,17.8 9.5,17.45C11.56,16.5 13,14.42 13,12C13,9.58 11.56,7.5 9.5,6.55C10.26,6.2 11.11,6 12,6A6,6 0 0,1 18,12A6,6 0 0,1 12,18M20,8.69V4H15.31L12,0.69L8.69,4H4V8.69L0.69,12L4,15.31V20H8.69L12,23.31L15.31,20H20V15.31L23.31,12L20,8.69Z"></path>
+                            </svg>
+                            <h6 className="card-title fs-title-step-4 fw-bold">
+                              CHUẨN BỊ HỒ SƠ
+                            </h6>
+                            <p className="card-text fs-step-4">
+                              Chuẩn bị hồ sơ và hoàn tất thủ tục vay tiền như đã
+                              được tư vấn
+                            </p>
+                          </div>
+                        </div>
+                      </div>
                     </div>
                   </div>
                 </div>
@@ -596,71 +601,6 @@ const Content = () => {
                 ảnh hưởng đến điểm tín dụng."
               </p>
             </div>
-          </div>
-        </div>
-        <div className="row mt-5 justify-content-around">
-          <div className="col-md-12 col-lg-6 flex-column">
-            <div className="container bg-normal p-4 p-md-5 text-white">
-              <div className="row w-100 p-1">
-                <h4 className="text-center fw-bold">VÍ DỤ KHOẢN VAY</h4>
-                <ul className="text-start">
-                  <li className="mt-2 list-li-2">
-                    Lãi suất được tính theo phương thức nợ giảm dần, hàng tháng
-                    sẽ trẻ gốc và lãi suất.
-                  </li>
-                  <li className="mt-2 list-li-2">
-                    Ví dụ: Khoản vay 50 triệu trong 24 tháng với lãi suất
-                    0.8%/tháng
-                  </li>
-                  <li className="mt-2 list-li-2">
-                    Gốc trả hàng tháng 50.000.000 / 24 = 2.830.000
-                  </li>
-                  <li className="mt-2 list-li-2">
-                    Tiền lãi hàng tháng 50.000.000 x 0.8% = 400.000 Đ
-                  </li>
-                  <li className="mt-2 list-li-2">
-                    Tổng số tiền phải trả hàng tháng Gốc + Lãi = 2.483.000 Đ
-                  </li>
-                  <li className="mt-2 list-li-2">
-                    Lưu ý(*): Ví dụ trên chỉ mang tính chất minh họa
-                  </li>
-                  <li className="mt-2 list-li-2">
-                    Tùy Nhu Cầu mà các khoản vay thời gian vay tối thiểu là 12
-                    tháng ( 365 ngày ) và tối đa 48 tháng ( 1440 ngày)
-                  </li>
-                  <li className="mt-2 list-li-2">
-                    Tùy vào nhu cầu lãi suất tối thiểu 9.6%/1năm – lãi suất tối
-                    đa 18%/1 năm
-                  </li>
-                  <li className="mt-2 list-li-2">
-                    Các khoản vay dài hạn sẽ được hỗ trợ ưu đãi:
-                  </li>
-                  <li className="mt-2 list-li-2">
-                    Ví dụ: Nguyên Văn A vay 30 triệu trong 12 tháng và trả góp
-                    mỗi tháng gốc + lãi là 2.750.000 vậy sau 12 tháng tổng lãi +
-                    gốc là 33 triệu suy ra số tiền lãi là 3 triệu vậy lãi suất:
-                    10%/năm – đây là tạm tính còn thực tế là lãi suất tính trên
-                    dư nợ giảm dần nên khách hàng sẽ chỉ phải trả ít hơn khi còn
-                    nợ ít.
-                  </li>
-                  <li className="mt-2 list-li-2">
-                    Nhưng nếu Nguyễn Văn A vay 30 triệu trả trong vòng 48 tháng
-                    thì mỗi tháng sẽ phải trả góp 881.000đ vậy tổng sau 48 tháng
-                    cả gốc và lãi là : 42.300.000 trừ đi gốc tiền lãi là
-                    15.720.000 trong 4 năm thì mỗi năm lãi là 3.074.000 sấp sỉ
-                    10%/năm. đây là tạm tính còn thực tế là lãi suất tính trên
-                    dư nợ giảm dần nên khách hàng sẽ chỉ phải trả ít hơn khi còn
-                    nợ ít.
-                  </li>
-                  <li className="mt-2 list-li-2">
-                    Khách vay số tiền càng lớn lãi suất càng thấp
-                  </li>
-                </ul>
-              </div>
-            </div>
-          </div>
-          <div className="col-md-12 col-lg-6 flex-column mt-5 mt-md-0">
-            <FormContact />
           </div>
         </div>
         <div className="container">

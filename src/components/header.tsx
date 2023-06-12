@@ -2,7 +2,9 @@ const Header = () => {
   return (
     <div className="container-fluid header">
       <div className="box_header head row">
-        <div className="col-md-6 col-sm-3"></div>
+        <div className="col-md-6 col-sm-3">
+          <img src="../images/SVFC_LOGO.png" alt="" />
+        </div>
         <div className="col-md-5 col-sm-6 header-wrapper">
           <div className="card card-header">
             <div className="card-body">
@@ -108,7 +110,9 @@ const Header = () => {
                 </svg>
               </div>
               <div className="card-body">
-                <h5 className="card-title fs-5 px-3">Khoảng vay tới 900 triệu</h5>
+                <h5 className="card-title fs-5 px-3">
+                  Khoảng vay tới 900 triệu
+                </h5>
                 <a href="#" className="btn btn-primary text-uppercase">
                   Đăng ký vay
                 </a>

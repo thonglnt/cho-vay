@@ -86,7 +86,15 @@ code {
 .bg-normal div img {
   border-radius: 25px;
 }
-
+.height-step-4 {
+  height: 167.2px;
+}
+.fs-title-step-4 {
+  font-size: 13px;
+}
+.fs-step-4 {
+  font-size: 12px;
+}
 .checked-icon {
   width: 24px;
   height: 24px;
@@ -460,11 +468,11 @@ span.num {
 }
 
 /* modal in app */
-.modal-close-button{
+.modal-close-button {
   position: relative;
 }
 
-.modal-close-button .close-button{
+.modal-close-button .close-button {
   position: absolute;
   top: 1.5rem;
   right: 1.5rem;
