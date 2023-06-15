@@ -40,9 +40,6 @@ const Header = () => {
                 <h5 className="card-title fs-5">
                   Hồ sơ đơn giản <br /> Phê duyệt nhanh
                 </h5>
-                <a href="#" className="btn btn-primary text-uppercase">
-                  Đăng ký vay
-                </a>
               </div>
             </div>
           </div>
@@ -62,10 +59,9 @@ const Header = () => {
                 </svg>
               </div>
               <div className="card-body">
-                <h5 className="card-title fs-5 px-3">Giải ngân nhanh chóng</h5>
-                <a href="#" className="btn btn-primary text-uppercase">
-                  Đăng ký vay
-                </a>
+                <h5 className="card-title fs-5 px-3">
+                  Giải ngân <br /> nhanh chóng
+                </h5>
               </div>
             </div>
           </div>
@@ -86,11 +82,8 @@ const Header = () => {
               </div>
               <div className="card-body">
                 <h5 className="card-title fs-5">
-                  Lãi xuất thấp hơn thị trường
+                  Lãi xuất thấp <br /> hơn thị trường
                 </h5>
-                <a href="#" className="btn btn-primary text-uppercase">
-                  Đăng ký vay
-                </a>
               </div>
             </div>
           </div>
@@ -111,11 +104,8 @@ const Header = () => {
               </div>
               <div className="card-body">
                 <h5 className="card-title fs-5 px-3">
-                  Khoảng vay tới 900 triệu
+                  Khoảng vay tới <br /> 900 triệu
                 </h5>
-                <a href="#" className="btn btn-primary text-uppercase">
-                  Đăng ký vay
-                </a>
               </div>
             </div>
           </div>

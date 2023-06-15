@@ -141,6 +141,16 @@ const FormContact = () => {
                 />
               </div>
               <div className="form-group from_input mt-2">
+                <input
+                  type="text"
+                  className="form-control"
+                  name="address_company"
+                  id="address_company"
+                  aria-describedby="helpId"
+                  placeholder="Địa chỉ công ty đang làm"
+                />
+              </div>
+              <div className="form-group from_input mt-2">
                 <div className="mb-3">
                   <select
                     className="form-select form-select-normal"
