@@ -19,7 +19,7 @@ const Footer = () => {
                 >
                   <path d="M10,20V14H14V20H19V12H22L12,3L2,12H5V20H10Z"></path>
                 </svg>
-                Address: 545 Quang Trung P10 Gò Vấp
+                Address: 645 Quang Trung P10 Gò Vấp
               </p>
             </span>
             <span>

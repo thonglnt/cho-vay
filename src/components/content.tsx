@@ -390,7 +390,7 @@ const Content = () => {
           <div className="col-lg-5 radius-2">
             <img
               className="border radius-2 box-shaw-dow w-100"
-              src="/images/tu_van_shin_han.png"
+              src="/images/shinhan_tuvan.jpg"
               alt=""
             />
           </div>
