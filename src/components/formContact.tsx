@@ -1,7 +1,11 @@
 import { useEffect, useRef, useState } from "react";
 import emailjs from "@emailjs/browser";
 
-const FormContact = () => {
+type FormContactProps = {
+  onCloseModal?: () => void;
+};
+
+const FormContact = ({ onCloseModal }: FormContactProps) => {
   const [days, setDay] = useState<any>("00");
   const [hours, setHours] = useState<any>("00");
   const [minutes, setMinutes] = useState<any>("00");
@@ -9,7 +13,6 @@ const FormContact = () => {
   const [resetTime, setResetTime] = useState(false);
 
   const form = useRef<HTMLFormElement>({} as any);
-
   const sendEmail = (e: { preventDefault: () => void }) => {
     e.preventDefault();
 
@@ -22,9 +25,9 @@ const FormContact = () => {
       )
       .then(
         (result) => {
-          console.log(result.text);
           console.log("msg sended");
           form.current.reset();
+          onCloseModal && onCloseModal();
         },
         (error) => {
           console.log(error.text);
@@ -39,8 +42,6 @@ const FormContact = () => {
 
   let interval: any = useRef();
   const startTime = (countDown: any) => {
-    console.log("call start time");
-
     interval = setInterval(() => {
       const now = new Date().getTime();
       const distance = countDown - now;
@@ -64,7 +65,6 @@ const FormContact = () => {
   };
 
   useEffect(() => {
-    console.log("call useEffect");
     const today = new Date();
     const countDown = addDays(today, 3);
     startTime(countDown);
@@ -109,7 +109,7 @@ const FormContact = () => {
                 <p className="text-dark fs-6 fw-normal">Sec</p>
               </div>
             </div>
-            <form method="post">
+            <form method="post" ref={form} onSubmit={sendEmail}>
               <div className="form-group from_input mt-5">
                 <input
                   type="text"
@@ -174,7 +174,7 @@ const FormContact = () => {
               <button
                 className="btn btn-danger from_input mt-2 w-100"
                 type="submit"
-                onSubmit={sendEmail}
+                data-dismiss="modal"
               >
                 Gửi đi
               </button>

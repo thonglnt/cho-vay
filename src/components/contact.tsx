@@ -16,9 +16,8 @@ export const ContactUs = () => {
       )
       .then(
         (result) => {
-          console.log(result.text);
           console.log("msg sended");
-          console.log(form.current);
+          form.current.reset()
         },
         (error) => {
           console.log(error.text);
@@ -38,3 +37,5 @@ export const ContactUs = () => {
     </form>
   );
 };
+
+export default ContactUs

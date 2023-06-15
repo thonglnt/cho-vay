@@ -1,7 +1,7 @@
 const ZaloIcon = () => {
   return (
     <a
-      href="https://zalo.me/0988157453"
+      href="https://zalo.me/0931400184"
       id="linkzalo"
       target="_blank"
       rel="noopener noreferrer"
