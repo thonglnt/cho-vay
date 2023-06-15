@@ -141,6 +141,26 @@ const FormContact = ({ onCloseModal }: FormContactProps) => {
                 />
               </div>
               <div className="form-group from_input mt-2">
+                <input
+                  type="text"
+                  className="form-control"
+                  name="company"
+                  id="company"
+                  aria-describedby="helpId"
+                  placeholder="Công ty đang làm"
+                />
+              </div>
+              <div className="form-group from_input mt-2">
+                <input
+                  type="text"
+                  className="form-control"
+                  name="address_company"
+                  id="address_company"
+                  aria-describedby="helpId"
+                  placeholder="Địa chỉ công ty đang làm"
+                />
+              </div>
+              <div className="form-group from_input mt-2">
                 <div className="mb-3">
                   <select
                     className="form-select form-select-normal"
@@ -182,7 +202,8 @@ const FormContact = ({ onCloseModal }: FormContactProps) => {
                 Mọi thông tin khách hàng đều được bảo mật
                 <br />
                 <span className="fw-bold text-secondary">
-                  Lưu ý: chưa hỗ trợ khách hàng có nợ xấu
+                  Lưu ý: Có hỗ trợ nợ xấu và dư nợ cao tại các tổ chức tín dụng
+                  quốc tế khác
                 </span>
               </p>
             </form>
